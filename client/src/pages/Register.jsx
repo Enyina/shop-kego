@@ -113,10 +113,12 @@ const Register = () => {
           />
           <Input
             placeholder="password"
+            type="password"
             onChange={(e) => setPassword(e.target.value)}
           />
           <Input
             placeholder="confirm password"
+            type="password"
             onChange={(e) => setPasswordConfirm(e.target.value)}
           />
           <Agreement>
